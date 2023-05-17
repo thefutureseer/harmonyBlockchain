@@ -1,3 +1,21 @@
+# Ignore Harmony localnet specific files and directories
+.harmony/
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore user-specific files
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log
@@ -78,6 +96,8 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.env.*.local
+
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
