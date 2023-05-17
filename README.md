@@ -1,2 +1,2 @@
 # harmonyBlockchain
-Storing text files with smart contracts.
+Storing files with smart contracts.
